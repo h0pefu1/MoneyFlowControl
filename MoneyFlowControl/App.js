@@ -1,33 +1,12 @@
-import Wallet from "./models/Wallet";
+import Home from "./pages/Home";
+import Accounts from "./pages/Accounts";
+import Report from "./pages/Report";
+
 import { NavigationContainer } from "@react-navigation/native";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import Home from "./models/Home";
-const Stack = createNativeStackNavigator();
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import BottomNavigation from "./components/general/BottomNavigation";
+const Tab = createBottomTabNavigator();
 
 export default function App() {
-  return (
-    <NavigationContainer>
-    <Stack.Navigator>
-      <Stack.Screen
-        name="Home"
-        component={Home}
-        options={{title: 'Welcome'}}
-      />
-      <Stack.Screen name="Wallet" component={Wallet} />
-    </Stack.Navigator>
-  </NavigationContainer>
-  );
+  return <BottomNavigation initialRouteName={Home.name} />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  button: {
-    backgroundColor: "#cccccc",
-    padding: 20,
-    marginTop:10
-  },
-});
