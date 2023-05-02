@@ -1,11 +1,18 @@
 import { Dimensions, StyleSheet, Text, View } from "react-native";
 import { Icon } from "@rneui/themed";
+import Accounts from "../pages/Accounts";
 
-export default function Category(props) {
+export default function Category(props, { navigation }) {
   return (
-    <View style={styles.container}>
-      <Text></Text>
-      <Text>{props.Score}asdasd</Text>
+    <View
+      style={styles.container}
+      onPress={() => {
+        navigation.navigate(Accounts.name);
+      }}
+    >
+      <Text style={{ whiteSpace: "wrap" }}>{props.Name}</Text>
+      <Text>{props.Score}</Text>
+      <Icon name={props.IconName} type={props.IconType} color={props.Color} />
     </View>
   );
 }
@@ -13,12 +20,10 @@ export default function Category(props) {
 const styles = StyleSheet.create({
   container: {
     borderWidth: 1,
+    borderRadius: 20,
     padding: 10,
-    flex: 1,
     alignItems: "center",
-  },
-
-  icon: {
-    borderWidth: 2,
+    justifyContent: "space-between",
+    width: 120,
   },
 });
