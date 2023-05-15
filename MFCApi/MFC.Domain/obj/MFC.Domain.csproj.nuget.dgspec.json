@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Personal Projects\\MoneyFlowControl\\MoneyFlowControl\\MFCApi\\MFCApi\\MFCApi.csproj": {}
+    "E:\\Personal Projects\\MoneyFlowControl\\MoneyFlowControl\\MFCApi\\MFC.Domain\\MFC.Domain.csproj": {}
   },
   "projects": {
-    "E:\\Personal Projects\\MoneyFlowControl\\MoneyFlowControl\\MFCApi\\MFCApi\\MFCApi.csproj": {
+    "E:\\Personal Projects\\MoneyFlowControl\\MoneyFlowControl\\MFCApi\\MFC.Domain\\MFC.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Personal Projects\\MoneyFlowControl\\MoneyFlowControl\\MFCApi\\MFCApi\\MFCApi.csproj",
-        "projectName": "MFCApi",
-        "projectPath": "E:\\Personal Projects\\MoneyFlowControl\\MoneyFlowControl\\MFCApi\\MFCApi\\MFCApi.csproj",
+        "projectUniqueName": "E:\\Personal Projects\\MoneyFlowControl\\MoneyFlowControl\\MFCApi\\MFC.Domain\\MFC.Domain.csproj",
+        "projectName": "MFC.Domain",
+        "projectPath": "E:\\Personal Projects\\MoneyFlowControl\\MoneyFlowControl\\MFCApi\\MFC.Domain\\MFC.Domain.csproj",
         "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
-        "outputPath": "E:\\Personal Projects\\MoneyFlowControl\\MoneyFlowControl\\MFCApi\\MFCApi\\obj\\",
+        "outputPath": "E:\\Personal Projects\\MoneyFlowControl\\MoneyFlowControl\\MFCApi\\MFC.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Max\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,16 +39,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[7.0.3, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.4.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -61,9 +51,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

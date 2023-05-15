@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Personal Projects\\MFCApi\\MFCApi\\MFCApi\\MFCApi.csproj",
+      "projectUniqueName": "E:\\Personal Projects\\MoneyFlowControl\\MoneyFlowControl\\MFCApi\\MFCApi\\MFCApi.csproj",
       "projectName": "MFCApi",
-      "projectPath": "E:\\Personal Projects\\MFCApi\\MFCApi\\MFCApi\\MFCApi.csproj",
+      "projectPath": "E:\\Personal Projects\\MoneyFlowControl\\MoneyFlowControl\\MFCApi\\MFCApi\\MFCApi.csproj",
       "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
-      "outputPath": "E:\\Personal Projects\\MFCApi\\MFCApi\\MFCApi\\obj\\",
+      "outputPath": "E:\\Personal Projects\\MoneyFlowControl\\MoneyFlowControl\\MFCApi\\MFCApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Max\\AppData\\Roaming\\NuGet\\NuGet.Config",
